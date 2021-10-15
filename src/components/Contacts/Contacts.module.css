@@ -1,0 +1,51 @@
+.wrapper,
+.contacts__list {
+  padding: 0 37.5px;
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5;
+  text-transform: uppercase;
+}
+.wrapper {
+  padding-top: 37.5px;
+}
+.contacts__list {
+  padding-bottom: 37.5px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__item:hover {
+  background-color: #f2f3eb;
+}
+
+.text {
+  padding-bottom: 37.5px;
+}
+
+.del__btn {
+  background: none;
+  border: solid 2px #e20000;
+  color: #e20000;
+  cursor: pointer;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 0 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.del__btn:hover,
+.del__btn:focus {
+  background: #e20000;
+  color: #f2f3eb;
+}

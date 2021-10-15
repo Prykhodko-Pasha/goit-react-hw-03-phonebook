@@ -1,0 +1,14 @@
+.section {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.section__title {
+  color: #474544;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 33px;
+  padding: 20px 0;
+}
