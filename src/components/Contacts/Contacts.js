@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Contacts.module.css';
-import ContactsItem from './ContactsItem';
+import ContactsItem from '../ContactsItem/ContactsItem';
 
 export default function Contacts({ contactsArr, onDeleteContact }) {
   return (
